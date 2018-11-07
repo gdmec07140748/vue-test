@@ -2,6 +2,8 @@
 
 - [vue 官网](https://cn.vuejs.org/v2/guide/index.html)
 
+- [learn to](https://cn.vuejs.org/v2/guide/forms.html)
+
 - [vue router](https://router.vuejs.org/zh/guide/essentials/navigation.html)
 
 - 浏览器访问文件
