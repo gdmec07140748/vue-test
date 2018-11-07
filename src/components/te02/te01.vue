@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <span>Message : {{msg}} </span>
+<template>
+<div>
+   <span>Message : {{msg}} </span>
 
     <!-- 执行一次性地插值 -->
     <span v-once>这个将不会改变: {{ msg }}</span>
@@ -28,6 +20,15 @@
     <!-- 参数是监听的事件名 -->
     <a v-on:click="doSomething"></a>
     <a @click="doSomething"></a>
+</div>
+</template>
 
-</body>
-</html>
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
