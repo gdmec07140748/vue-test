@@ -20,15 +20,19 @@
     <!-- 参数是监听的事件名 -->
     <a v-on:click="doSomething"></a>
     <a @click="doSomething"></a>
+
 </div>
 </template>
 
 <script>
 export default {
-
-}
+  data() {
+    return {
+      rawHtml: '<span style="color:red">This is should be red</span>'
+    };
+  }
+};
 </script>
 
 <style>
-
 </style>
