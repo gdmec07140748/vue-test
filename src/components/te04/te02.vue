@@ -1,24 +1,22 @@
 <template>
 <div>
-<te05 v-model="searchText">ddd</te05>
+<te01 post-title="hello!"></te01>
 </div>
 
 </template>
 
 <script>
-import te05 from "@/components/te03/te05";
+import te01 from "@/components/te04/te01";
+
 export default {
   data() {
-    return {
-      vv:'dd'
-    }
+    return {};
   },
   components: {
-    te05
+    te01
   }
-}
+};
 </script>
 
 <style>
-
 </style>
